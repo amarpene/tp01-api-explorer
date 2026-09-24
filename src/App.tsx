@@ -73,9 +73,9 @@ function App() {
             </button>
           </div>
 
-          {loading && <p>⏳ Chargement...</p>}
+          {loading && <p> Chargement...</p>}
 
-          {error && <p>❌ {error}</p>}
+          {error && <p> {error}</p>}
 
           {!loading && !error && results && results.length === 0 && (
             <p>Aucune série trouvée.</p>
