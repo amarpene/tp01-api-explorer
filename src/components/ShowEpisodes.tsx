@@ -26,11 +26,11 @@ function ShowEpisodes({ showId }: ShowEpisodesProps) {
   );
 
   if (loading) {
-    return <p>⏳ Chargement des épisodes...</p>;
+    return <p> Chargement des épisodes...</p>;
   }
 
   if (error) {
-    return <p>❌ {error}</p>;
+    return <p> {error}</p>;
   }
 
   if (!episodes || episodes.length === 0) {
